@@ -16,8 +16,6 @@ databaseChangeLog:
               - column:
                   name: update_at
                   type: TIMESTAMP
-                  constraints:
-                    nullable: false
               - column:
                   name: created_at
                   type: TIMESTAMP
@@ -41,11 +39,6 @@ databaseChangeLog:
               - column:
                   name: total_price
                   type: DECIMAL(16,3)
-                  constraints:
-                    nullable: false
-              - column:
-                  name: product_id
-                  type: BIGINT
                   constraints:
                     nullable: false
               - column:

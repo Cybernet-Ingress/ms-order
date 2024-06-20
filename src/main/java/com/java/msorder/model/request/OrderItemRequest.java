@@ -21,4 +21,5 @@ public class OrderItemRequest {
     Integer quantity;
     BigDecimal unitPrice;
     BigDecimal totalPrice;
+
 }

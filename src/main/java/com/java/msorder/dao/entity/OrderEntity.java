@@ -7,6 +7,7 @@ import lombok.*;
 import lombok.experimental.FieldDefaults;
 import org.apache.commons.lang3.builder.ToStringExclude;
 import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -31,6 +32,7 @@ public class OrderEntity {
     @Id
     @GeneratedValue(strategy = IDENTITY)
     Long id;
+    @UpdateTimestamp
     LocalDateTime updateAt;
     @Column(updatable = false)
     @CreationTimestamp
