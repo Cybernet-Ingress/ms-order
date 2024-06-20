@@ -26,6 +26,10 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.liquibase:liquibase-core'
     compileOnly 'org.projectlombok:lombok'
+
+//    implementation "org.springframework.cloud:spring-cloud-starter-openfeign:${open_feign_version}"
+  //  implementation "org.springframework:spring-aop:${aop_version}"
+
     runtimeOnly 'org.postgresql:postgresql'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
